@@ -1,0 +1,76 @@
+body {
+    background-color:rgb(9, 110, 76);
+  }
+
+#icon-margin {
+    margin-right:10px;
+    color:white;
+}
+
+#heading {
+    margin-top:20px;
+    margin-left:630px;
+    color:white;
+}
+
+#item-d-box {
+    padding-top:25px;
+    margin-top:40px;
+    margin-left:450px;
+    width:500px;
+    height:50px;
+    background-color:rgb(101, 190, 160);
+    border-radius:10px;
+}
+
+#margin-i {
+   margin-left:130px; 
+   display:inline;
+}
+
+#margin-d {
+    margin-left:40px;
+    display:inline;
+}
+
+#work-item-box {
+    padding-top:25px;
+    margin-top:20px;
+    margin-left:490px;
+    width:500px;
+    height:100px;
+    background-color:rgb(101, 190, 160);
+    border-radius:10px;
+}
+
+#item {
+    margin-left:60px;
+}
+
+#description {
+    margin-left: 10px;
+}
+
+input {
+    border-radius:7px;
+    height:27px;
+    padding-left:20px;
+}
+
+#submit {
+    margin-top:15px;
+    height:37px;
+    width:110px;
+    border-radius:10px;
+    margin-left:200px;
+    background-color:rgb(9, 110, 76);
+    color:white;
+}
+
+h3 {
+    margin-top:7px;
+}
+
+#submit:hover {
+    background-color:lightgrey;
+}

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            <%= title  %>
+        </title>
+
+        <script src="https://kit.fontawesome.com/dfb205cded.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="/home.css">
+    </head>
+    <body>
+        <h1 id="heading" ><i class="fa-solid fa-list" id="icon-margin"></i>To-Do List</h1>
+        
+        <div>
+        <ul>
+           <div id="item-d-box"><h2 id="margin-i">Items</h2>
+            <h2 id="margin-d">Description</h2>
+            </div> 
+            <%  for (i of work_items) { %>
+
+               <li> 
+                <p><%=  i.item   %> </p> 
+                <p><%=  i.description   %> </p> 
+               </li>
+               <a href="/delete-item/?id=<%= i._id %>">
+               <i class="fa-solid fa-check"></i>
+            </a>
+            <%  }  %>
+        </ul>
+    </div>
+    <hr style="width: 80%;">
+    <div id="work-item-box">
+    <form action="/create-item" method="POST">
+        <div>
+            <input type="text" name="item" id="item" placeholder="Work Item" required>
+            <input type="text" name="description" id="description" placeholder="Description" required>
+        </div>
+        <button type="submit" id="submit"><h3>ADD</h3></button>
+    </form>
+</div>
+<script src="https://kit.fontawesome.com/dfb205cded.js" crossorigin="anonymous"></script>
+    </body>
+</html>
