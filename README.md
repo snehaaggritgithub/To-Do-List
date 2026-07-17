@@ -1,5 +1,5 @@
 # To-Do-List
 
-* Developed a task management application utilizing the Local Storage API to persist user data across sessions. Implemented dynamic DOM manipulation and event-driven functionality to support task creation, editing, completion tracking, and deletion while ensuring real-time UI updates.
-<br>
-*Tech Stack* : JavaScript (ES6), Local Storage API, DOM Manipulation
+
+Developed a task management application leveraging the Local Storage API for persistent data storage and state retention across user sessions, implementing dynamic DOM rendering and event driven workflows for task operations including creation, modification, completion tracking, and deletion with real-time UI synchronization.
+Tech Stack: JavaScript (ES6), Local Storage API, DOM Manipulation
